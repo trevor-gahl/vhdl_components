@@ -32,3 +32,8 @@ begin
 		end if;
 	end if;
 end process;
+
+pulse_count_o <= pulse_count_sig;
+pulse_o <= pulse_sig;
+
+end rtl;
